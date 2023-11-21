@@ -1,9 +1,8 @@
-using System;
-
 [System.Serializable]
 public class Card
 {
     public string EnglishWord;
-    public string[] Translations;
-    //public int CorrectTranslation;
+    public string CorrectTranslation;
+    public string[] Translations = new string[3];
+
 }
